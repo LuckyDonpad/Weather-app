@@ -1,0 +1,17 @@
+{% extends 'basic.html' %}
+
+{% block title %}
+{% if title -%}
+    Donpad's pet projects - {{title}}
+{% else %}
+    Donpad's pet projects
+{% endif %}
+{% endblock %}
+
+{% block content%}
+<p> здесь будет погодка ^-^ <br>
+здесь будет температура {{temperature}} <br>
+здесь будет как ощущается {{fells_like}} <br>
+здесь будет общая оуенка погоды {{mark}} </p>
+
+{% endblock %}
